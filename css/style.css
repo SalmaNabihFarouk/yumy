@@ -1,0 +1,77 @@
+.layer{
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0;
+
+}
+.layer:hover{
+  opacity: 1;
+
+}
+.wrap{
+  word-break: break-all;
+  width: 100%;
+
+}
+.color{
+  color: aliceblue;
+}
+.d1,.d2,.d3,.d4,.d5,.d6{
+  display: none;
+}
+
+body{
+background-color: black;
+}
+#detalis{
+  display: none;
+  position: fixed;
+  z-index: 999;
+  inset: 0;
+  background-color:black;
+  overflow: auto;
+
+}
+
+#sitting{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: blue;
+  z-index: 99999;
+  display: flex;
+color: whitesmoke;
+ 
+
+}
+
+#sitting i{
+
+  background-color: whitesmoke;
+
+padding: 10%;
+color: black;
+
+}
+ul li{
+  list-style: none;
+
+  transform: translateY(900%);
+}
+
+.gearbox{
+  background-color: black;
+
+}
+
+
+/* #search{
+display: none;
+} */
+.d{
+  cursor: pointer;
+}
+.s{
+  display: none;
+}
